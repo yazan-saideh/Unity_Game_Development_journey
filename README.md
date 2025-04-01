@@ -58,4 +58,4 @@ If you're interested in my work or have any questions, feel free to connect with
 
 1. **Clone the repository**:  
    ```sh
-   git clone https://github.com/yourusername/Unity-Game-Development-Journey.git
+   git clone https://github.com/yazan-saideh/Unity-Game-Development-Journey.git
