@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5916548057510779646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1005735372126794925}
+  - component: {fileID: 384753930831966999}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1005735372126794925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5916548057510779646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.7920065, y: -5.082745, z: -20.509672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384753930831966999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5916548057510779646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf52bd4e765b63489a9b67e45d60388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: coin
+    AudioClip: {fileID: 8300000, guid: 10f308c7cb2c90a40b88fe6d082d14a7, type: 3}
+    Volume: 1
+    pitch: 1
+    loop: 0
+    AudioSource: {fileID: 0}
+  - name: button
+    AudioClip: {fileID: 8300000, guid: d5b9b825f7fce184c8c1b739e0810cc5, type: 3}
+    Volume: 1
+    pitch: 1
+    loop: 0
+    AudioSource: {fileID: 0}
+  - name: door
+    AudioClip: {fileID: 8300000, guid: edab77edc617d3f49a6a099a52919376, type: 3}
+    Volume: 1
+    pitch: 1
+    loop: 0
+    AudioSource: {fileID: 0}
+  - name: door2
+    AudioClip: {fileID: 8300000, guid: 61246ef91e4480046bcda2a222eeacd7, type: 3}
+    Volume: 1
+    pitch: 1
+    loop: 0
+    AudioSource: {fileID: 0}
+  - name: song
+    AudioClip: {fileID: 8300000, guid: 4f3e182a8e30cc64b8e4610897e622a6, type: 3}
+    Volume: 0.229
+    pitch: 0.6
+    loop: 1
+    AudioSource: {fileID: 0}
