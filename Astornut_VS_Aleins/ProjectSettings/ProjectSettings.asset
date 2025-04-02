@@ -253,8 +253,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: N:/Desktop/the basic/key/key.keystore
-  AndroidKeyaliasName: yazan
+  AndroidKeystoreName: 
+  AndroidKeyaliasName:
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -788,10 +788,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: f1ee59b8-5911-4994-9afb-e674f80a267e
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   projectName: Astronaut VS Aliens
-  organizationId: ntminer5
+  organizationId:
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
